@@ -1,5 +1,5 @@
 import csv
-with open("C:/Users/Adi/Downloads/hello.csv") as csv_file:
+with open("hello.csv") as csv_file:
     csvread=csv.reader(csv_file,delimiter=',')
     x=[];y=[];z=[];s=[]
     print('the training dataset is:')
