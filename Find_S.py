@@ -26,4 +26,4 @@ with open("hello.csv") as csv_file:
             elif s[j]!=i[j]:
                 s[j]='?'
         print(s)
-    print('the most general hypothesis is:',s)
+    print('the most specific hypothesis is:',s)
